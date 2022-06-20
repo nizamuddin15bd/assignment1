@@ -100,8 +100,12 @@ h1 {
 } */
 
 .develop-container {
-    margin-left: 80px;
+    padding-left: 80px;
     margin-bottom: 100px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: top 25% left;
 }
 
 .half-height {
@@ -110,6 +114,28 @@ h1 {
 
 .half-height1 {
     width: 40%;
+}
+
+.gobal-container {
+    padding-left: 80px;
+    padding-bottom: 100px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: bottom 10% right 10%;
+}
+
+.gobal-container img {
+    width: 70%;
+}
+
+.half {
+    margin-left: 20px;
+}
+
+.half h1 {
+    font-size: 35px;
+    max-width: 45%;
 }
 
 .footer {
